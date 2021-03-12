@@ -16,10 +16,10 @@ p{
 .container{
 	width: 100%;
 	height: 100vh;
-	background: white;/*radial-gradient(#BFC4C2, #FAA544)*/;
+	background: #eba83d;/*radial-gradient(#BFC4C2, #FAA544)*/;
 }
 .book-content{
-	width: 50%;
+	width: 30%;
 	min-width: 250px;
 	max-width: 400px;
 	height: 23rem;
@@ -29,7 +29,7 @@ p{
 }
 .book{
 	position: absolute;
-	width: 90%;
+	width: 95%;
 	height: 115%;
 	transition: 1s;
 	transform-style: preserve-3d;
@@ -38,7 +38,7 @@ p{
 .face-front, .face-back{
 	width: 100%;
 	height: 100%;
-	background: white;
+	background: #eba83d;
 	padding: 10px;
 	box-sizing: border-box;
 	overflow: hidden;
