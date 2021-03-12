@@ -29,7 +29,7 @@ p{
 }
 .book{
 	position: absolute;
-	width: 95%;
+	width: 80%;
 	height: 115%;
 	transition: 1s;
 	transform-style: preserve-3d;
