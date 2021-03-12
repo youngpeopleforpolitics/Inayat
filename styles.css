@@ -3,6 +3,7 @@
 	margin: 0;
 	font-family: sans-serif;
 }
+
 p{
 	margin-top: 10px;
 	font-size: 13px;
@@ -15,7 +16,7 @@ p{
 .container{
 	width: 100%;
 	height: 100vh;
-	background: black/*radial-gradient(#BFC4C2, #FAA544)*/;
+	background: white;/*radial-gradient(#BFC4C2, #FAA544)*/;
 }
 .book-content{
 	width: 70%;
@@ -28,8 +29,8 @@ p{
 }
 .book{
 	position: absolute;
-	width: 100%;
-	height: 150%;
+	width: 90%;
+	height: 115%;
 	transition: 1s;
 	transform-style: preserve-3d;
 	transform-origin: left;
@@ -37,7 +38,7 @@ p{
 .face-front, .face-back{
 	width: 100%;
 	height: 100%;
-	background: black;
+	background: white;
 	padding: 10px;
 	box-sizing: border-box;
 	overflow: hidden;
@@ -76,6 +77,7 @@ background: url('zine2.jpg');
 .trnsf-reset{
 	transform: translateX(10px);
 }
+
 
 /* @media para hacer el texto responsivo */
 
